@@ -1,0 +1,21 @@
+# secrets and local state
+.env
+*.db
+*.db-shm
+*.db-wal
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+# node
+node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+# misc
+.DS_Store
+*.log
